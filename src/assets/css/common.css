@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+.noto-sans { font-family: 'Noto Sans KR';}
+.v-text-field--filled>.v-input__control>.v-input__slot, .v-text-field--full-width>.v-input__control>.v-input__slot, 
+.v-text-field--outlined>.v-input__control>.v-input__slot{
+    min-height: unset;
+}
+.v-text-field--filled.v-input--dense.v-text-field--outlined.v-text-field--filled>.v-input__control>.v-input__slot, .v-text-field--filled.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot, .v-text-field--filled.v-input--dense.v-text-field--single-line>.v-input__control>.v-input__slot, .v-text-field--full-width.v-input--dense.v-text-field--outlined.v-text-field--filled>.v-input__control>.v-input__slot, .v-text-field--full-width.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot, .v-text-field--full-width.v-input--dense.v-text-field--single-line>.v-input__control>.v-input__slot, .v-text-field--outlined.v-input--dense.v-text-field--outlined.v-text-field--filled>.v-input__control>.v-input__slot, .v-text-field--outlined.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot, .v-text-field--outlined.v-input--dense.v-text-field--single-line>.v-input__control>.v-input__slot{
+    min-height: unset;
+}
+.v-text-field--filled.v-input--dense>.v-input__control>.v-input__slot, .v-text-field--full-width.v-input--dense>.v-input__control>.v-input__slot, .v-text-field--outlined.v-input--dense>.v-input__control>.v-input__slot{
+    min-height: unset;
+}
+.div-selectbox.v-select {background-color:#FFF; border-radius: 4px;}
+.div-selectbox.v-select>.v-input__control>.v-input__slot {min-height: 0}
+.div-selectbox.v-select.v-text-field--enclosed:not(.v-text-field--single-line) .v-select__selections {padding-top:0;padding-bottom:0;font-size:14px;line-height:14px}
+.div-selectbox.v-select .v-select__selection {max-width:100%}
+.div-selectbox.v-select.v-text-field input {display:none}
+.div-selectbox.v-select.v-text-field .v-input__append-inner {margin-top: 2px}
+
+.div-selectbox.large.v-select {background-color:#FFF}
+.div-selectbox.large.v-select>.v-input__control>.v-input__slot {min-height: 40px}
+.div-selectbox.large.v-select.v-text-field--enclosed:not(.v-text-field--single-line) .v-select__selections {padding-top:0;padding-bottom:0;font-size:14px;line-height:14px}
+.div-selectbox.large.v-select.v-text-field input {margin-top:0 !important;font-size:12px;line-height:14px;padding:7px 0}
+.div-selectbox.large.v-select.v-text-field .v-input__append-inner {margin-top: 7px}
+.div-selectbox > .v-input__control {min-width: 100px; align-items: self-end;}
+/* .v-text-field--outlined fieldset { top: 0px;} */
